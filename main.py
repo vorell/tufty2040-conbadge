@@ -309,6 +309,10 @@ def show_image(index):
     display.update()
             
 # begin program logic
+
+# execute background thread
+#_thread.start_new_thread(background_thread, ())
+
 # draw the badge for the first time
 badge_mode = "photo"
 draw_badge()
@@ -378,8 +382,7 @@ while True:
             show_photo()
             display.update()
         time.sleep(0.5)
-# execute background thread
-#_thread.start_new_thread(background_thread, ())
+
 
 
 
