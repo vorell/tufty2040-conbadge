@@ -10,7 +10,7 @@ import machine
 import time
 import jpegdec
 import qrcode
-import _thread
+#import _thread
 
 # define display constraints
 display = PicoGraphics(display=DISPLAY_TUFTY_2040)
